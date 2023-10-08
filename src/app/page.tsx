@@ -1,10 +1,11 @@
 'use client';
 import React, { useState } from "react"
 
-import Products from "@/components/Products"
 import ShoppingCartSidebar from "@/components/ShoppingCart";
 
 export default function Home() {
+
+  const [title, setTitle] = useState("");
 
   // const addedToCartList = [];
 
@@ -16,18 +17,10 @@ export default function Home() {
 
   return (
     <div className="flex flex-col">
-      <div>
+      <nav>
         <ShoppingCartSidebar></ShoppingCartSidebar>
-      </div>
+      </nav>
       <div className="flex flex-wrap justify-center">
-        <Products></Products>
-        <Products></Products>
-        <Products></Products>
-        <Products></Products>
-        <Products></Products>
-        <Products></Products>
-        <Products></Products>
-        <Products></Products>
       </div>
     </div>
   )
