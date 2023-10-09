@@ -11,7 +11,7 @@ export type Product = {
   title: string
   description: string
   tags: string
-  price: number
+  price:number
 }
 
 export type CreateProductsParams = {
