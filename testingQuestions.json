@@ -1,0 +1,82 @@
+{
+    "questions": [
+        {
+          "title": "Hva er Jest, og hvordan brukes det i React-testing?",
+          "answers": [
+            { "answere": "Jest er en CSS-rammeverk for React, brukt til å style komponenter." },
+            {
+              "answere": "Jest er et rammeverk for React-testing, som brukes til å skrive og kjøre testkoder for React-komponenter.",
+              "correct": true
+            },
+            {
+              "answere": "Jest er en skybasert tjeneste for å administrere React-applikasjoner."
+            },
+            {
+              "answere": "Jest er en database som lagrer React-komponenter."
+            }
+          ],
+          "helper": {
+            "text": "Jest er et rammeverk for React-testing. Hva er Jest og hvordan det brukes i React-testing?"
+          }
+        },
+
+        {
+          "title": "Hva er fordelen med å bruke Jest sammen med React i forhold til andre testrammeverk?",
+          "answers": [
+            { "answere": "Jest gir bedre ytelse for React-applikasjoner." },
+            {
+              "answere": "Jest er det eneste alternativet for testing av React, så det er ingen fordeler."
+            },
+            {
+              "answere": "Jest har en integrert testrunner og enkle mockefunksjoner som gjør testing enklere.",
+              "correct": true
+            },
+            {
+              "answere": "Jest gir bedre støtte for CSS-styling i React."
+            }
+          ],
+          "helper": {
+            "text": "Hva er fordelene ved å bruke Jest sammen med React i forhold til alternative testrammeverk, og hvordan kan det forbedre testopplevelsen?"
+          }
+        },
+        {
+          "title": "Hvilke typer tester kan du skrive med Jest i React?",
+          "answers": [
+            { "answere": "Jest støtter bare enhetstester for individuelle komponenter." },
+            {
+              "answere": "Jest støtter bare end-to-end-testing for hele React-applikasjoner."
+            },
+            {
+              "answere": "Jest støtter både enhetstester for komponenter og end-to-end-testing for hele applikasjoner.",
+              "correct": true
+            },
+            {
+              "answere": "Jest støtter bare visuelle tester for React-komponenter."
+            }
+          ],
+          "helper": {
+            "text": " Hvilke typer tester kan du opprette med Jest i React, og hvordan kan dette hjelpe deg med å sikre at React-applikasjonen fungerer som forventet?"
+          }
+        },
+        {
+          "title": "Hvorfor er testing viktig i React-utvikling?",
+          "answers": [
+            { "answere": "Testing er bare relevant for back-end-utvikling, ikke for React." },
+            {
+              "answere": "Testing bidrar til å identifisere og forebygge feil i React-komponenter, forbedrer kvaliteten og vedlikeholdbarheten.",
+              "correct": true
+            },
+            {
+              "answere": "Testing er en oppgave for kvalitetskontrollteamet, ikke for utviklere."
+            },
+            {
+              "answere": "Testing er bare nødvendig når du utvikler små React-prosjekter."
+            }
+          ],
+          "helper": {
+            "text": "Hvorfor er testing viktig i React-utvikling, og hvordan påvirker det kvaliteten på prosjektet?"
+          }
+        }
+        
+      ]
+}
